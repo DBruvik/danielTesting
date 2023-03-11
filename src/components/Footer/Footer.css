@@ -1,0 +1,73 @@
+/*Footers*/
+ul {
+    list-style: none;
+    padding-left: 0;
+    align-items: space-between;
+}
+li {
+  padding-top: 0.2em;
+}
+footer a {
+  text-decoration: none;
+  color: var(--color-white)
+}
+a:hover {
+  text-decoration: underline;
+}
+footer {
+  width: 100%;
+  margin-top: auto;
+  min-height: 50px;
+  background-color: #000;
+  font-size: var(--font-size-4xs);
+  color: var(--color-white);
+  font-family: var(--body-copy);
+  display: flex;
+  flex-direction: column;
+}
+.skognesfooter {
+  flex: 1; 
+  display: flex;
+  flex-wrap: wrap;
+}
+.footercontentAccount {
+    margin: 0;
+    flex: 1;
+    align-self: center;
+    border-left-style: solid;
+    border-left-color: white;
+    border-left-width: 1px;
+}
+.footercontentHelp{
+    margin: 0;
+    flex: 1;
+    align-self: center;
+}
+.footercontentAbout {
+    margin: 0;
+    flex: 1;
+    align-self: center;
+}
+.footercontentFollow {
+    margin: 0;
+    flex-wrap: wrap;
+    justify-self: center;
+    margin-right: 3em;
+    align-self: center;
+}
+.skognesmyaccount {
+  margin-right: 1em;
+  margin-left: 3em;
+  justify-items: center;
+  align-self: center;
+}
+.skogneshelp {
+  margin-right: 1em;
+  justify-items: center; 
+  align-self: center;
+}
+.skognesaboutus {
+  margin-right: 1em;
+  justify-items: center;
+  align-self: center;
+}

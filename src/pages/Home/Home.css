@@ -1,0 +1,26 @@
+.homePage {
+    padding-top: 90px;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    flex-direction: column;
+    display: flex;
+}
+.seMer {
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+.seMerKnapp {
+    background-color: var(--color-lightgreen-200);
+    border-radius: 4px;
+    border-width:0;
+    width: 100px;
+    height: 30px;
+    font-size:20px;
+}
+.seMerKnapp:hover{
+    text-decoration: underline;
+    cursor:pointer;
+    
+}

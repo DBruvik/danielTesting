@@ -1,0 +1,9 @@
+.productList {    
+    display: flex;
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    gap: 2em;
+    padding-left: 2em;
+
+}
