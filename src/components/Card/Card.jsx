@@ -4,11 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Card = ({item}) => {
     return (
-        <Link to={{
-            pathname: `/product/${item.id}`,
-            state: {item}
-        }  
-        }>
+        <Link to={`/product/${item.id}`}>
 
         <div className="card">
             <div className="image">
